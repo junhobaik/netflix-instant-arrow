@@ -1,0 +1,14 @@
+{
+  "name": "Netflix Instant Arrow",
+  "short_name": "Netflix Instant Arrow",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Netflix Instant Arrow",
+  "permissions": ["*://*.netflix.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["*://*.netflix.com/*"],
+      "js": ["js/watch.js"]
+    }
+  ]
+}
