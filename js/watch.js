@@ -1,12 +1,12 @@
-console.log("'Netflix Instant Arrow' is running");
-
 let isEventadded = false;
 let pathName = "";
 
 const HandleArrowKey = event => {
   const key = event.keyCode;
-
-  if (key === 39 || key === 37) {
+  if (
+    (key === 39 || key === 37) &&
+    document.querySelector("button.button-nfplayerPause")
+  ) {
     document.querySelector("button.button-nfplayerPause").click();
 
     setTimeout(() => {
