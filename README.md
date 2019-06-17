@@ -1,5 +1,7 @@
 # Netflix Instant Arrow
 
+**넷플릭스 기능이 해당 프로그램의 기능 동작으로 변경됨에 따라 해당 프로그램 적용이 불필요**
+
 넷플릭스 영상 시청 중 방향키를 이용해 앞뒤로 탐색할 때 불편함을 느껴 만든 크롬 확장 프로그램
 
 ## [다운로드 링크](https://chrome.google.com/webstore/detail/odckhnffdpclfdjkjcjeghfdlngonebg)
